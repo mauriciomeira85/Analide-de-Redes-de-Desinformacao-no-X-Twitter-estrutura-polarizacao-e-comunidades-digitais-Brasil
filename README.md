@@ -1,2 +1,2 @@
 # Analide-de-Redes-de-Desinformacao-no-X-Twitter-estrutura-polarizacao-e-comunidades-digitais-Brasil
-Projeto de pesquisa voltado à análise de redes de circulação de conteúdo político no X (Twitter), com foco em polarização, comunidades digitais e estrutura de difusão de informação. Utiliza Python, NetworkX e métodos de detecção de comunidades (Louvain) para mapear padrões estruturais da interação online.
+Este repositório apresenta um estudo técnico em desenvolvimento sobre a estrutura das redes de circulação de conteúdo político no X (Twitter). O projeto busca identificar padrões de polarização, centralidade e formação de comunidades digitais, contribuindo para o debate sobre desinformação e integridade informacional no Brasil.
