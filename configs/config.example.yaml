@@ -1,0 +1,16 @@
+# Fonte principal: csv | x_api | twikit
+data_source: csv
+
+paths:
+  output_dir: outputs
+
+collect:
+  csv:
+    input_path: data/sample_posts.csv
+  x_api:
+    query: "(desinformação OR fake news) lang:pt -is:retweet"
+    max_results: 100
+  twikit:
+    cookies_path: secrets/cookies.json
+    query: "desinformação"
+    limit: 100

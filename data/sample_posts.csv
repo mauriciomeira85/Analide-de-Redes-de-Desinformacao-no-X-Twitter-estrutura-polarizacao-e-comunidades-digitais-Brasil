@@ -1,0 +1,6 @@
+tweet_id,author_id,retweeted_user_id,mentioned_user_id,created_at,text
+1,u1,u2,u3,2026-01-01T10:00:00Z,"RT @u2 e menção @u3"
+2,u2,,u1,2026-01-01T10:05:00Z,"Conversa com @u1"
+3,u3,u2,,2026-01-01T10:10:00Z,"Retweet de u2"
+4,u4,u1,u2,2026-01-01T10:20:00Z,"RT e menção"
+5,u1,,u4,2026-01-01T10:30:00Z,"Resposta @u4"

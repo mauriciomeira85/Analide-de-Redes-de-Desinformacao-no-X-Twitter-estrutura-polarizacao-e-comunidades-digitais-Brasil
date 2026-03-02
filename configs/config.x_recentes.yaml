@@ -1,0 +1,15 @@
+data_source: csv
+
+paths:
+  output_dir: outputs/run_2026-03-01
+
+collect:
+  csv:
+    input_path: data/x_recentes_2026-03-01.csv
+  x_api:
+    query: '(urna OR fraude OR STF) lang:pt'
+    max_results: 100
+  twikit:
+    cookies_path: secrets/cookies.json
+    query: '(urna OR fraude OR STF) lang:pt'
+    limit: 100
